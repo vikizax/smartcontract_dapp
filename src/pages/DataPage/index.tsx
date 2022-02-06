@@ -9,6 +9,7 @@ import {
   LineElement,
   Legend,
   Tooltip,
+  ScatterController,
 } from "chart.js";
 import { Chart } from "react-chartjs-2";
 
@@ -20,8 +21,9 @@ ChartJS.register(
   BarElement,
   PointElement,
   LineElement,
+  ScatterController,
   Legend,
-  Tooltip
+  Tooltip,
 );
 const DataPage = () => {
   const {
